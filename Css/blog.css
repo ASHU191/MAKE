@@ -1,0 +1,221 @@
+.blog-hero-section{
+    width: 100%;
+    margin-top: 40px;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    color: var(--white);
+}
+.a-color{
+    color: white;
+  }
+
+.blog-bg-image{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+}
+
+.blog-bg-image img{
+    width: 550px;
+}
+
+.blog-bg-overlay{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blog-bg-overlay img{
+    width: 100%;
+}
+
+.blog-text-content{
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.blog-title h1{
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+
+.blog-desc{
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.blog-desc p{
+    font-size: 1.9rem;
+}
+
+.blog-tech-title{
+    gap: 20px;
+    font-family: 'Poppins',  sans-serif;
+    margin-bottom: 10px;
+}
+.blog-tech-title span{
+    font-size: 1.4rem;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+}
+
+.blog-tech-title span:before{
+    position: absolute;
+    top: 130%;
+    left: 0;
+    content: '';
+    background-color: var(--white);
+    height: 1px;
+    width: 0%;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+}
+
+.blog-tech-title span:first-child::before{
+    width: 100%;
+}
+
+.blog-tech-title span:hover:before{
+    width: 100%;
+}
+
+.blog-cards-section{
+    width: 100%;
+    padding-block: 30px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding-inline: 50px;
+    gap: 70px 20px;
+}
+
+.blog-cards{
+    flex-wrap: wrap;
+    gap: 70px 20px;
+}
+
+.blog-card{
+    width: calc(50% - 20px);
+    overflow: hidden;
+    align-self: flex-start;
+}
+
+.blog-card img{
+    width: 540px;
+}
+
+.blog-card .card-desc{
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.blog-card .card-desc span{
+    font-size: 1.4rem;
+    color: var(--yellow);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.blog-card .card-desc h1{
+    color: var(--white);
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+}
+
+.blog-card .card-desc a{
+    color: var(--yellow);
+    padding-top: 15px;
+    font-size: 1.2rem;
+}
+
+.load-more-btn{
+    width: 100%;
+    padding-block: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.load-more-btn div{
+    border: 1px solid var(--white);
+    padding: 8px 15px;
+}
+
+.load-more-btn div:hover{
+    border-color: #796eff;
+    color: #796eff;
+}
+
+.blog-about-section{
+    width: 100%;
+    background-image: url(../assets/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.blog-about-content{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+.blog-about-left,.blog-about-right{
+    width: 50%;
+    gap: 20px;
+}
+
+.blog-about-left,.blog-about-right h1{
+    letter-spacing: 1px;
+}
+
+.blog-about-left,.blog-about-right div{
+    padding: 9px 15px;
+}
+
+.blog-company-review{
+    width: 100%;
+    justify-content: center;
+    padding-block: 30px;
+    color: var(--white);
+}
+
+.reviews {
+    max-width: 600px;
+    text-align: center;
+    gap: 30px;
+}
+
+.reviews .company-logo{
+    align-items: center;
+    gap: 5px;
+}
+
+.company-logo .ratings{
+    gap: 5px;
+    color: rgb(255, 208, 0);
+    text-align: center;
+}
+
+.company-logo .ratings i{
+    font-size: 1rem;
+}
+
+.review-desc{
+    gap: 30px;
+}
+
+.review-desc p{
+    font-size: 2rem;
+    line-height: 3.6rem;
+}
+
+.review-desc .company-name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}

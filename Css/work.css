@@ -1,0 +1,141 @@
+
+.work-section{
+    width: 100%;
+    color: var(--white);
+}
+.a-color{
+    color: white;
+  }
+.work-content{
+    width: 100%;
+    padding-block: 50px;
+    justify-content: space-between;
+}
+
+.work-left{
+    width: 60%;
+}
+
+.work-title h1.hollow-text{
+    -webkit-text-stroke: 1px  #fff;
+    font-size: 9rem;
+}
+
+.work-title h1{
+    font-size: 9rem;
+    margin-top: -3rem;
+}
+
+.work-desc{
+    margin-top: 30px;
+}
+.work-desc p{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+.work-right{
+    margin-top: 20px;
+    width: 40%;
+}
+
+.work-right img{
+    width: 600px;
+}
+
+
+
+.sub-work-content{
+    width: 100%;
+    max-width: 700px;
+    margin-inline: auto;
+    text-align: center;
+    padding-bottom: 60px;
+    gap: 20px;
+}
+
+.sub-work-heading h1{
+    font-size: 5rem;
+}
+
+swiper-container{
+    height: 60vh;
+    margin-block: 30px;
+}
+swiper-slide{
+    border-radius: 12px;
+}
+
+.vd-card > img{
+    object-fit: cover;
+}
+.vd-card-img{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.vd-card .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(15, 15, 15, 0.548);
+    transition: all 0.5s ease;
+}
+.vd-card .overlay:hover{
+    opacity: 0.5;
+}
+
+.vd-card-img img{
+    width: 120px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+}
+
+.brands-logo{
+    width: 100%;
+    padding-block: 90px;
+    border-bottom: 2px solid #999;
+}
+
+.about-icons{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    gap: 70px;
+}
+
+.award-card img{
+    width: 200px;
+}
+
+.contact-us-section{
+    width: 100%;
+    color: var(--white);
+    padding-block: 30px;
+    border-bottom: 2px solid #999;
+}
+
+.contact-content{
+    width: 100%;
+    text-align: left;
+}
+
+.contact-titles h1{
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+}
+
+.contact-content .btn{
+    width: 100%;
+    padding-block: 25px;
+    gap: 20px;
+}
+
+.contact-content .btn h1{
+    font-size: 1.3rem;
+    color: #796eff;
+}

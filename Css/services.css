@@ -1,0 +1,252 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.a-color{
+    color: white;
+  }
+.service-section {
+    width: 100%;
+    padding-top: 30px;
+    padding: 0;
+}
+
+.services-content {
+    width: 100%;
+    padding-block: 20px;
+    justify-content: space-between;
+}
+
+.services-left{
+    width: 55%;
+    align-items: flex-start;
+    gap: 30px;
+    color: var(--white);
+}
+
+.services-left .services-title{
+    align-items: flex-start;
+}
+
+.services-left .services-title h1{
+    line-height: 7rem;
+}
+
+.services-left .services-title h1:nth-child(2){
+    font-size: 7rem;
+    letter-spacing: 2px;
+}
+
+.services-left .services-title h1:first-child{
+    font-size: 7rem;
+    letter-spacing: 1px;
+    -webkit-text-stroke: .5px var(--white);
+}
+
+.services-left .service-desc p{
+    text-align: left;
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+}
+.service-right{
+    width: 40%;
+}
+
+.service-right img{
+    width: 700px;
+}
+
+/* technology-section */
+
+.services-tech-section{
+    width: 100%;
+    padding-block: 40px;
+    color: var(--white);
+}
+
+.services-tech-content{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.services-tech-left{
+    width: 50%;
+    gap: 20px;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+.services-tech-left .services-tech-title h1{
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+
+.services-tech-left .services-tech-desc {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0px;
+    font-family:'Poppins', sans-serif;
+}
+
+.services-tech-right{
+    width: 37%;
+}
+
+.technologys{
+    text-align: left;
+}
+
+.technologys ul li{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 11px;
+    border-bottom: .5px solid #999;
+    padding-bottom: 5px;
+    font-weight: 400;
+    transition: 0.5s ease;
+}
+
+.technologys ul li:hover{
+    color: var(--yellow);
+}
+
+/* services-video-section */
+
+.services-video-section{
+    width: 100%;
+}
+
+.services-video-content{
+    width: 100%;
+    padding: 10px;
+}
+.services-video-title{
+    padding-bottom: 10px;
+}
+
+.services-video-title h1{
+    font-size: 2rem;
+    color:  var(--white);
+    letter-spacing: 1px;
+}
+.mySwiper{
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    align-items: flex-start;
+}
+
+.vd-card{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.vd-card video{
+    object-fit: cover;
+    opacity: 0.6;
+    transition: all 0.5s ease;
+}
+
+.vd-card video:hover{
+    opacity: 1;
+}
+
+.vd-card-img{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+} */
+
+.vd-card-img img{
+    width: 120px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+}
+
+
+
+/* about-make */
+
+.about-make{
+    width: 100%;
+}
+.make-content{
+    width: 100%;
+    padding-block: 50px;
+    justify-content: space-between;
+}
+.about-make-right{
+    width: 40%;
+    gap: 30px;
+    align-items: flex-start;
+    color: var(--white);
+}
+
+.make-title h2{
+    font-size: 3rem;
+    color: var(--yellow);
+    letter-spacing: 1px;
+}
+
+.make-desc p{
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+}
+
+.make-about-btn .make-btn{
+    margin-top: 10px;
+    padding: 8px 18px;
+    color: #000;
+    border: 1px solid var(--white);
+    background-color: var(--yellow);
+    font-size: 1.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.make-about-btn .make-btn:hover{
+    color: var(--white);
+    background-color: #999;
+}
+
+.about-make-left{
+    position: relative;
+    width: 50%;
+    text-align: right;
+}
+
+.about-make-left img{
+    width: 550px;
+}
+
+.about-make-right-text{
+    position: absolute;
+    top: 40%;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    align-self: flex-end;
+    z-index: 1;
+    margin-left: 15%;
+
+}
+
+.about-make-right-text h1.hollow-text{
+    -webkit-text-stroke: .5px var(--yellow);
+    letter-spacing: 2px;
+    font-size: 8rem;
+}
+.about-make-right-text h1.normal-text{
+    color: var(--yellow);
+    letter-spacing: 2px;
+    font-size: 8rem;
+}
